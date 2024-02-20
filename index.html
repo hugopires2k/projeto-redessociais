@@ -11,11 +11,15 @@
         }
         body{
             background-color: rgba(0, 0, 0, 0.89);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        header img{
+        main img{
             width: 70px;
         }
-        header{
+        main{
             text-align: center;
             border: 1px solid black;
             width: 30%;
@@ -24,15 +28,14 @@
             background-color: rgba(0, 0, 0, 0.363);
             padding-top: 20px;
             position: relative;
-            top: 10vw;
             border-radius: 16px;
         }
-        header h1{
+        main h1{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1.3em;
             padding-top: 10px;
         }
-        header p{
+        main p{
             color: yellow;
             font-size: 14px;
             padding-top: 10px;
@@ -103,7 +106,7 @@
     </style>
 </head>
 <body>
-    <header>
+    <main>
         <img src="foto-perfil.png" alt="meuperfil">
         <h1>Hugo Pires</h1>
         <p>Recife PE, Brasil</p>
@@ -125,6 +128,6 @@
                 <a href="#">Instagram</a>
             </div>
         </nav>
-    </header>
+    </main>
 </body>
 </html>
